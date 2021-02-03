@@ -1,0 +1,55 @@
+body{
+    text-align: center
+}
+.line{
+    height: 6px;
+    width: 70px;
+    margin: 8px auto;
+    background-color: black;
+    
+}
+#Achievements{
+    text-align: left;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.travel_mainDiv{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid #c7c7c7;
+}
+.travel_mainDiv{
+    width: 100%;
+height: 300px;        
+}
+.travel_mainDiv hr{
+    width: 100%;
+}
+.travel_mainDiv h5 , .travel_mainDiv p{
+    margin-left: 20px;
+}
+#achivmentsID{
+    padding-bottom: 10px;
+}
+.movie_head{
+    font:20px;
+   padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+.movie_head{
+    float: right;
+}
+.movie_text span{
+    color:#ff7700;
+}
+.footer{
+    height: 20px;
+    background-color: white;
+}
